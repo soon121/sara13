@@ -22,15 +22,15 @@ pound.onkeyup= function() {
 
 
    let euro= document.getElementById('euro');
-let pound= document.getElementById('pound');
+let poun= document.getElementById('poun');
 
 euro.onkeyup= function() {
 
- pound.value = euro.value * 51;
+ poun.value = euro.value * 51;
 
 }
-pound.onkeyup= function() {
+poun.onkeyup= function() {
    
-   euro.value =pound.value / 51;
+   euro.value =poun.value / 51;
     
    }
